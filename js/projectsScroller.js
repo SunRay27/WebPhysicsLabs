@@ -3,7 +3,7 @@
     window.onscroll = function() {scrollFunction()};
     var scrollableElement = document.getElementById('scrollableElement');
     scrollableElement.addEventListener('wheel', findScrollDirectionOtherBrowsers);
-    var targetList = ["#Lab7N","#Lab2", "#Lab3"];
+    var targetList = ["#Lab4N","#Lab5N", "#Lab3"];
     var cur = 0;
 
 

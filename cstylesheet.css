@@ -35,7 +35,7 @@ section
 {
 	height: 100%;
 	position: relative;
-	background-position: top center;
+	//background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -144,16 +144,17 @@ img.hover-shadow {
   color: white;
   font-size: 7vh;
   position: relative; 
+  margin-top: 0px;
   top: 12vh;
   //left: 50%;
   left: 55%;
   transform: translate(-55%, -50%);
   z-index: 2;
-  margin-left: 0;
+  //margin-left: 0;
   width: 79vw;
   text-anchor: (0,0,0);
   text-align: center;
-  margin-bottom: 0;
+  //margin-bottom: 0;
 	font-family: 'Do Hyeon', sans-serif;
 	user-select: none;
 	-webkit-user-select: none; /* Safari */        
