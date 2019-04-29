@@ -9,17 +9,16 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/4N.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
      <div class="back">
-                    <div class="Head" >
+                    <div class="Head">
                 Лабораторная работа 4Н
               </div>
-    <div class="webgl-content" data-aos="fade-up" data-aos-duration="1300">
+    <div class="webgl-content">
       <div id="gameContainer" style="width: 1280px; height: 720px"></div>
       <div class="footer">
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
@@ -29,10 +28,6 @@
     </div>
 
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 
   </body>
 </html>
