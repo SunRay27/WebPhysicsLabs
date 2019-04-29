@@ -3,23 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | PhysicsLabs</title>
+    <title>Лабораторная работа 5Н</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/5N.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+     <div class="back">
+                    <div class="Head" data-aos="fade-left" data-aos-duration="1300" >
+                Лабораторная работа 5Н
+              </div>
+    <div class="webgl-content" data-aos="fade-up" data-aos-duration="1300">
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">PhysicsLabs</div>
+        <!--<div class="title">PhysicsLabs</div>-->
       </div>
     </div>
+    </div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   </body>
 </html>
