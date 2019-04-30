@@ -59,3 +59,33 @@ display:block;
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 }
+.backButton
+{
+  //transition: 0.2s;
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.85); /* Black w/opacity/see-through */
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7vh;
+  width: 5%;
+  top: 80px;
+  left:2.5%;
+}
+.backButton:hover
+{
+  transition: 0.1s;
+  background-color: rgb(255,69,0); /* Fallback color */
+  background-color: rgba(255,69,0, 0.85); /* Black w/opacity/see-through */
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7vh;
+  width: 5%;
+  top: 80px;
+  left:2.5%;
+}
