@@ -1,0 +1,16 @@
+{
+"companyName": "SunRay",
+"productName": "PhysicsLabs",
+"productVersion": "0.35",
+"dataUrl": "Unity.data.unityweb",
+"wasmCodeUrl": "Unity.wasm.code.unityweb",
+"wasmFrameworkUrl": "Unity.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0b9"
+}
